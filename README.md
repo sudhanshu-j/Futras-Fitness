@@ -4,6 +4,14 @@ A modern, responsive **Fitness & Nutrition website** built with **HTML5, CSS3, a
 
 ---
 
+## 🌐 Live Demo
+
+Experience the Futras – Fitness & Nutrition website live:
+
+**🔗 Live Demo:** [View Website](https://your-live-demo-url.com)
+
+---
+
 ## 🌐 Overview
 
 **Futras** is designed as a fitness and nutrition learning platform where users can:
