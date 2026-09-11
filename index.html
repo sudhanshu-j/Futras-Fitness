@@ -1,0 +1,913 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Set the character encoding to UTF-8 -->
+    <meta charset="UTF-8" />
+
+    <!-- Specify Internet Explorer compatibility mode -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Configure the viewport for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Set the title displayed in the browser tab -->
+    <title>Futras - Fitness & Nutrition</title>
+
+    <!-- Set the website favicon -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- Link the external CSS stylesheet -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- Preconnect to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <!-- Preconnect to Google's font CDN with CORS enabled -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body id="top">
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo"> Futras<span class="span">.</span> </a>
+
+        <nav class="navbar" data-navbar>
+          <button
+            class="nav-toggle-btn"
+            aria-label="close menu"
+            data-nav-toggler
+          >
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link" data-nav-link>Home</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#about" class="navbar-link" data-nav-link>About Us</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#course" class="navbar-link" data-nav-link>All Course</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link" data-nav-link>Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <a href="#" class="btn btn-primary">Sign Up</a>
+
+        <button class="nav-toggle-btn" aria-label="open manu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- Hero Section -->
+        <section
+          class="section hero"
+          aria-label="hero"
+          id="home"
+          data-section
+          style="
+            background-image: url(&quot;./assets/images/hero-banner.jpg&quot;);
+          "
+        >
+          <div class="container">
+            <p class="hero-subtitle">Fitness & Nutrition</p>
+
+            <h1 class="h1 hero-title">
+              This life style for your fitness, not only diet.
+            </h1>
+
+            <p class="hero-text">
+              It has survived not only five centuries but also
+            </p>
+
+            <a href="#" class="btn btn-secondary">Start Course</a>
+
+            <div class="social-wrapper">
+              <p class="social-title">Connect with us:</p>
+
+              <ul class="social-list">
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-skype"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Services Section -->
+
+        <section class="section service" aria-label="service" data-section>
+          <div class="container">
+            <ul class="grid-list">
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/service-1.svg"
+                      width="60"
+                      height="60"
+                      loading="lazy"
+                      alt="Women’s Course"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Women’s Course</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Personalized fitness and nutrition programs designed to help
+                    women build strength, improve health, and achieve their
+                    wellness goals.
+                  </p>
+
+                  <a href="#" class="btn btn-secondary">
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card active">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/service-2.svg"
+                      width="60"
+                      height="60"
+                      loading="lazy"
+                      alt="Basic Course"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Basic Course</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Start your fitness journey with beginner-friendly workouts,
+                    nutrition guidance, and simple habits for a healthier
+                    lifestyle.
+                  </p>
+
+                  <a href="#" class="btn btn-secondary">
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/service-3.svg"
+                      width="60"
+                      height="60"
+                      loading="lazy"
+                      alt="Men’s Course"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Men’s Course</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Build muscle, increase endurance, and improve overall
+                    fitness with structured workouts and practical nutrition
+                    strategies.
+                  </p>
+
+                  <a href="#" class="btn btn-secondary">
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- About Section -->
+
+        <section
+          class="section about"
+          aria-label="about"
+          id="about"
+          data-section
+        >
+          <div class="container">
+            <div
+              class="about-banner img-holder"
+              style="--width: 470; --height: 580"
+            >
+              <img
+                src="./assets/images/about-banner.jpg"
+                width="470"
+                height="580"
+                loading="lazy"
+                alt="Fitness instructor helping a student"
+                class="img-cover"
+              />
+
+              <a href="#" class="btn btn-secondary">Meet Instructor</a>
+            </div>
+
+            <div class="about-content">
+              <p class="section-subtitle">25+ Years Of Experience</p>
+
+              <h2 class="h2 section-title">
+                Expert guidance to help you achieve your fitness goals.
+              </h2>
+
+              <p class="section-text">
+                Our experienced instructors provide practical fitness training,
+                nutrition guidance, and personalized support to help you build
+                healthier habits and achieve lasting results.
+              </p>
+
+              <h3 class="about-h3">100+ Courses</h3>
+
+              <p class="section-text">
+                Explore a wide range of carefully designed courses covering
+                fitness, nutrition, weight management, and healthy lifestyle
+                practices for different experience levels.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Courses Section -->
+
+        <section
+          class="section course"
+          aria-label="course"
+          id="course"
+          data-section
+        >
+          <div class="container">
+            <div class="title-wrapper">
+              <p class="section-subtitle">100+ Courses Available</p>
+
+              <h2 class="h2 section-title">Fitness & Nutrition Courses</h2>
+            </div>
+
+            <ul class="grid-list">
+              <li>
+                <div class="course-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 350; --height: 300"
+                  >
+                    <img
+                      src="./assets/images/courses-1.jpg"
+                      width="350"
+                      height="300"
+                      loading="lazy"
+                      alt="Healthy nutrition and cooking for children"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <data class="card-price" value="98">$98</data>
+
+                    <p class="card-author">
+                      <a href="#" class="card-link">
+                        By: <span class="span">Ryan Patterson</span>
+                      </a>
+                    </p>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">
+                        Healthy Nutrition & Cooking for Children
+                      </a>
+                    </h3>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <time datetime="PT8H20M">08 hr 20 mins</time>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <p class="card-meta-text">28 Lectures</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="course-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 350; --height: 300"
+                  >
+                    <img
+                      src="./assets/images/courses-2.jpg"
+                      width="350"
+                      height="300"
+                      loading="lazy"
+                      alt="Healthy food and nutrition course"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <data class="card-price" value="72">$72</data>
+
+                    <p class="card-author">
+                      <a href="#" class="card-link">
+                        By: <span class="span">Arlene Daniels</span>
+                      </a>
+                    </p>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">
+                        Introduction to Healthy Food & Nutrition
+                      </a>
+                    </h3>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <time datetime="PT9H25M">09 hr 25 mins</time>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <p class="card-meta-text">16 Lectures</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="course-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 350; --height: 300"
+                  >
+                    <img
+                      src="./assets/images/courses-3.jpg"
+                      width="350"
+                      height="300"
+                      loading="lazy"
+                      alt="Nutrition and healthy lifestyle during pregnancy"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <data class="card-price" value="68">$68</data>
+
+                    <p class="card-author">
+                      <a href="#" class="card-link">
+                        By: <span class="span">Selina Benton</span>
+                      </a>
+                    </p>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">
+                        Nutrition & Healthy Lifestyle During Pregnancy
+                      </a>
+                    </h3>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <time datetime="PT3H38M">03 hr 38 mins</time>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <p class="card-meta-text">18 Lectures</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="course-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 350; --height: 300"
+                  >
+                    <img
+                      src="./assets/images/courses-4.jpg"
+                      width="350"
+                      height="300"
+                      loading="lazy"
+                      alt="Fitness nutrition and health training"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <data class="card-price" value="98">$98</data>
+
+                    <p class="card-author">
+                      <a href="#" class="card-link">
+                        By: <span class="span">Ryan Patterson</span>
+                      </a>
+                    </p>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">
+                        Complete Fitness, Nutrition & Health Guide
+                      </a>
+                    </h3>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <time datetime="PT2H16M">02 hr 16 mins</time>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <p class="card-meta-text">14 Lectures</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="course-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 350; --height: 300"
+                  >
+                    <img
+                      src="./assets/images/courses-5.jpg"
+                      width="350"
+                      height="300"
+                      loading="lazy"
+                      alt="Exercise and fitness training course"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <data class="card-price" value="72">$72</data>
+
+                    <p class="card-author">
+                      <a href="#" class="card-link">
+                        By: <span class="span">Arlene Daniels</span>
+                      </a>
+                    </p>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">
+                        Smart Exercise for Better Health & Fitness
+                      </a>
+                    </h3>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <time datetime="PT6H12M">06 hr 12 mins</time>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <p class="card-meta-text">35 Lectures</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="course-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 350; --height: 300"
+                  >
+                    <img
+                      src="./assets/images/courses-6.jpg"
+                      width="350"
+                      height="300"
+                      loading="lazy"
+                      alt="Personal weight loss and fitness planning"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <data class="card-price" value="68">$68</data>
+
+                    <p class="card-author">
+                      <a href="#" class="card-link">
+                        By: <span class="span">Selina Benton</span>
+                      </a>
+                    </p>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">
+                        Build Your Personal Weight Loss & Fitness Plan
+                      </a>
+                    </h3>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <time datetime="PT9H34M">09 hr 34 mins</time>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <p class="card-meta-text">28 Lectures</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Blog Section -->
+
+        <section class="section blog" aria-label="blog" id="blog" data-section>
+          <div class="container">
+            <div class="title-wrapper">
+              <p class="section-subtitle">Our Blog Posts</p>
+
+              <h2 class="h2 section-title">
+                Latest Articles on Fitness & Nutrition
+              </h2>
+            </div>
+
+            <ul class="grid-list">
+              <li>
+                <div class="blog-card">
+                  <div class="wrapper">
+                    <time class="publish-date" datetime="2024-02-24">
+                      <span class="span">24</span> Feb
+                    </time>
+
+                    <div>
+                      <div class="card-author">
+                        <a href="#" class="card-link">
+                          By: <span class="span">Maddie Rife</span>
+                        </a>
+                      </div>
+
+                      <ul class="card-meta-list">
+                        <li class="card-meta-item">
+                          <p class="item-text">87 Likes</p>
+                        </li>
+
+                        <li class="card-meta-item">
+                          <p class="item-text">58 Shares</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">
+                      Simple Nutrition Habits for a Healthier Lifestyle
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Discover simple and practical nutrition habits that can help
+                    you make healthier food choices and maintain a balanced
+                    lifestyle.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="blog-card">
+                  <div class="wrapper">
+                    <time class="publish-date" datetime="2024-02-18">
+                      <span class="span">18</span> Feb
+                    </time>
+
+                    <div>
+                      <div class="card-author">
+                        <a href="#" class="card-link">
+                          By: <span class="span">Ryan Patterson</span>
+                        </a>
+                      </div>
+
+                      <ul class="card-meta-list">
+                        <li class="card-meta-item">
+                          <p class="item-text">64 Likes</p>
+                        </li>
+
+                        <li class="card-meta-item">
+                          <p class="item-text">42 Shares</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">
+                      How Regular Exercise Improves Your Overall Health
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Learn how consistent exercise can improve strength,
+                    endurance, energy levels, and overall physical and mental
+                    well-being.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="blog-card">
+                  <div class="wrapper">
+                    <time class="publish-date" datetime="2024-02-10">
+                      <span class="span">10</span> Feb
+                    </time>
+
+                    <div>
+                      <div class="card-author">
+                        <a href="#" class="card-link">
+                          By: <span class="span">Selina Benton</span>
+                        </a>
+                      </div>
+
+                      <ul class="card-meta-list">
+                        <li class="card-meta-item">
+                          <p class="item-text">92 Likes</p>
+                        </li>
+
+                        <li class="card-meta-item">
+                          <p class="item-text">71 Shares</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">
+                      Building a Balanced Diet for Everyday Fitness
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Understand the basics of a balanced diet and discover how
+                    the right combination of nutrients can support your fitness
+                    goals.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- App Section -->
+
+        <section class="section app" aria-label="app" data-section>
+          <div class="container">
+            <div class="app-card">
+              <p class="section-subtitle">Your Fitness, Anywhere</p>
+
+              <h2 class="h2 section-title">
+                Train smarter with our mobile app.<br />
+                and stay active wherever you go.
+              </h2>
+
+              <div class="wrapper">
+                <a href="#" class="app-link" aria-label="play store">
+                  <img
+                    src="./assets/images/play-store.jpg"
+                    width="134"
+                    height="38"
+                    loading="lazy"
+                    alt="Play Store"
+                    class="img"
+                  />
+                </a>
+
+                <a href="#" class="app-link" aria-label="app store">
+                  <img
+                    src="./assets/images/app-store.jpg"
+                    width="132"
+                    height="38"
+                    loading="lazy"
+                    alt="App Store"
+                    class="img"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+      <div class="footer-top section" data-section>
+        <div class="container">
+          <div class="footer-list">
+            <p class="footer-list-title">Join Our Newsletter</p>
+
+            <p class="footer-list-text">
+              Get the latest fitness tips, nutrition advice, workout plans, and
+              wellness updates delivered straight to your inbox.
+            </p>
+
+            <form action="" class="footer-form">
+              <input
+                type="email"
+                name="email_address"
+                aria-label="email"
+                placeholder="Enter your email"
+                required
+                class="email-field"
+              />
+
+              <button type="submit" class="btn btn-secondary">
+                Subscribe Now
+              </button>
+            </form>
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Fitness Programs</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Daily Workout</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Weight Management</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Personal Training</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Healthy Nutrition</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Strength & Conditioning</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Wellness Coaching</a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Support & Help</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">About Us</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Contact Support</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Frequently Asked Questions</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Privacy Policy</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Terms & Conditions</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Online Coaching</a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Opening Hours</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Mon-Fri: 9 AM – 6 PM</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Saturday: 9 AM – 4 PM</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Sunday: Closed</a>
+            </li>
+
+            <li>
+              <p class="footer-list-title address-title">Location</p>
+            </li>
+
+            <li>
+              <address class="address">
+                176 W Fitness Avenue, New<br />
+                York, NY 10014
+              </address>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright">
+            &copy; 2026 Futras Made With
+            <ion-icon name="heart" aria-hidden="true"></ion-icon>
+          </p>
+
+          <ul class="footer-bottom-list">
+            <li class="footer-bottom-item">
+              <a href="#" class="footer-bottom-link">Terms of Service</a>
+            </li>
+
+            <li class="footer-bottom-item">
+              <a href="#" class="footer-bottom-link">Privacy Policy</a>
+            </li>
+
+            <li class="footer-bottom-item">
+              <a href="#" class="footer-bottom-link">Sitemap</a>
+            </li>
+
+            <li class="footer-bottom-item">
+              <a href="#" class="footer-bottom-link">Accessibility</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back To Top Control -->
+
+    <a
+      href="#top"
+      class="back-top-btn"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <!-- JavaScript File -->
+
+    <script src="./assets/js/script.js" defer></script>
+
+    <!-- ionicon links -->
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

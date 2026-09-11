@@ -4,14 +4,6 @@ A modern, responsive **Fitness & Nutrition website** built with **HTML5, CSS3, a
 
 ---
 
-## 🌐 Live Demo
-
-Experience the Futras – Fitness & Nutrition website live:
-
-**🔗 Live Demo:** [View Website](https://your-live-demo-url.com)
-
----
-
 ## 🌐 Overview
 
 **Futras** is designed as a fitness and nutrition learning platform where users can:
@@ -136,13 +128,13 @@ The design uses a fitness-oriented color palette including **blue-green, orange,
 
 The stylesheet contains multiple responsive breakpoints:
 
-| Breakpoint | Purpose |
-|---|---|
-| `< 575px` | Mobile layout |
-| `575px+` | Larger mobile / small tablet |
-| `768px+` | Tablet layout |
-| `992px+` | Desktop navigation and multi-column layouts |
-| `1200px+` | Large desktop optimization |
+| Breakpoint | Purpose                                     |
+| ---------- | ------------------------------------------- |
+| `< 575px`  | Mobile layout                               |
+| `575px+`   | Larger mobile / small tablet                |
+| `768px+`   | Tablet layout                               |
+| `992px+`   | Desktop navigation and multi-column layouts |
+| `1200px+`  | Large desktop optimization                  |
 
 ### Larger Screen Improvements
 
@@ -182,13 +174,10 @@ Sections containing the `data-section` attribute receive the `active` class when
 JavaScript uses custom HTML attributes such as:
 
 ```html
-data-navbar
-data-nav-toggler
-data-nav-link
-data-header
-data-back-top-btn
+data-navbar data-nav-toggler data-nav-link data-header data-back-top-btn
 data-section
 ```
+
 This keeps JavaScript behavior separate from styling classes and makes the code easier to maintain.
 
 ---
@@ -196,35 +185,12 @@ This keeps JavaScript behavior separate from styling classes and makes the code 
 ## 📂 Project Structure
 
 ```html
-Futras/
-│
-├── index.html
-├── favicon.svg
-│
-├── assets/
-│   ├── css/
-│   │   └── style.css
-│   │
-│   ├── js/
-│   │   └── script.js
-│   │
-│   └── images/
-│       ├── hero-banner.jpg
-│       ├── about-banner.jpg
-│       ├── about-shape-1.png
-│       ├── about-shape-2.png
-│       ├── courses-1.jpg
-│       ├── courses-2.jpg
-│       ├── courses-3.jpg
-│       ├── courses-4.jpg
-│       ├── courses-5.jpg
-│       ├── courses-6.jpg
-│       ├── service-1.svg
-│       ├── service-2.svg
-│       ├── service-3.svg
-│       ├── play-store.jpg
-│       └── app-store.jpg
-│
+Futras/ │ ├── index.html ├── favicon.svg │ ├── assets/ │ ├── css/ │ │ └──
+style.css │ │ │ ├── js/ │ │ └── script.js │ │ │ └── images/ │ ├──
+hero-banner.jpg │ ├── about-banner.jpg │ ├── about-shape-1.png │ ├──
+about-shape-2.png │ ├── courses-1.jpg │ ├── courses-2.jpg │ ├── courses-3.jpg │
+├── courses-4.jpg │ ├── courses-5.jpg │ ├── courses-6.jpg │ ├── service-1.svg │
+├── service-2.svg │ ├── service-3.svg │ ├── play-store.jpg │ └── app-store.jpg │
 └── README.md
 ```
 
@@ -259,20 +225,23 @@ The website follows accessibility-friendly practices to provide a better experie
 ---
 
 ## 🚀 Getting Started
+
 No framework or build process is required.
 
 1. Clone the Repository
+
 ```js
 git clone https://github.com/your-username/futras-fitness.git
 ```
 
 2. Open the Project
+
 ```js
 cd futras-fitness
 ```
 
 3. Run the Website
-Open index.html directly in your browser, or use a local development server such as VS Code Live Server.
+   Open index.html directly in your browser, or use a local development server such as VS Code Live Server.
 
 ---
 
